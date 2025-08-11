@@ -14,48 +14,53 @@
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/assets/icons/logo_icon_small.svg" type="image/svg+xml">
 
-    <script src="/shared/js/variables.js" ></script>
+    <script src="/shared/js/variables.js"></script>
     <script src="/shared/js/ui_helper.js"></script>
     <script src="/shared/js/api.js"></script>
     <script src="/shared/js/header.js"></script>
 </head>
 
 <body onload="setHeader()" class="dark_bg">
-<header class="main_header w_full">
-    <a aria-label="login page" href="/pages/auth/login.html">
-        <img src="/assets/icons/logo_icon_small.svg" alt="" srcset="">
-        <img src="/assets/icons/logo_icon.svg" alt="" srcset="">
-    </a>
-    <a aria-label="go back" onclick="goBackURL()">
-        <img src="../../assets/icons/arrow_back.svg" alt="arrow for going back">
-        <img src="../../assets/icons/arrow_back.svg" alt="arrow for going back">
-    </a>
-</header>
-<main class="w_full d_flex_ss_gl font_white_color">
-    <h1 class="font_prime_color">Imprint</h1>
+    <header class="main_header w_full">
+        <a aria-label="login page" href="/pages/auth/login.html">
+            <img src="/assets/icons/logo_icon_small.svg" alt="" srcset="">
+            <img src="/assets/icons/logo_icon.svg" alt="" srcset="">
+        </a>
+        <a aria-label="go back" onclick="goBackURL()">
+            <img src="../../assets/icons/arrow_back.svg" alt="arrow for going back">
+            <img src="../../assets/icons/arrow_back.svg" alt="arrow for going back">
+        </a>
+    </header>
+    <main class="w_full d_flex_ss_gl font_white_color">
+        <h1 class="font_prime_color">Imprint</h1>
 
-    <section class="d_flex_ss_gm f_d_c">
-        <h2>Legal Notice</h2>
-        <address>
-            <p><strong>Name:</strong> Max Mustermann</p>
-            <p><strong>Address:</strong> Sample Street 1, 12345 Sample City</p>
-            <p><strong>Phone:</strong> <a class="link_secondary" href="tel:+44123456789">+44 123 456 789</a></p>
-            <p><strong>Email:</strong> <a class="link_secondary" href="mailto:info@example.com">info@example.com</a></p>
-        </address>
-    </section>
-    <section class="d_flex_ss_gm f_d_c">
-        <h3>Disclaimer</h3>
-        <p>
-            Despite careful content control, we assume no liability for the content of external links.
-            The operators of the linked pages are solely responsible for their content.
-        </p>
-    </section>
-</main>
-<footer class="main_footer  w_full">
-    <nav class="d_flex_cs_gl w_full">
-        <a aria-label="privacy policy page" href="../privacy/index.html" class="link">Privacy Policy</a>
-    </nav>
-</footer>
+        <section class="d_flex_ss_gm f_d_c">
+            <h2 id="m46">Service provider </h2>
+            <p>Name: Mesrop Hakobyan</p>
+            <p>Street: Adelbylund 38</p>
+            <p>City: Flensburg 24943</p>
+
+            <h2 id="m56">Contact options</h2>
+            <p>E-mail address: <a href="mailto:mesrop.hakobyan@web.de">mesrop.hakobyan@web.de</a></p>
+            <p>Phone: +49 1634892590</p>
+
+            <p class="seal"><a href="https://datenschutz-generator.de/"
+                    title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank"
+                    rel="noopener noreferrer nofollow">Created with the free Datenschutz-Generator.de by Dr. Thomas Schwenke</a></p>
+        </section>
+        <section class="d_flex_ss_gm f_d_c">
+            <h3>Disclaimer</h3>
+            <p>
+                Despite careful content control, we assume no liability for the content of external links.
+                The operators of the linked pages are solely responsible for their content.
+            </p>
+        </section>
+    </main>
+    <footer class="main_footer  w_full">
+        <nav class="d_flex_cs_gl w_full">
+            <a aria-label="privacy policy page" href="../privacy/index.html" class="link">Privacy Policy</a>
+        </nav>
+    </footer>
 </body>
 
 </html>
